@@ -1,0 +1,71 @@
+C:\Documents and Settings\NICE\my documents\visual studio 2010\Projects\LoLToolsX\LoLToolsX\bin\Release\Resources\logo.png
+C:\Documents and Settings\NICE\my documents\visual studio 2010\Projects\LoLToolsX\LoLToolsX\bin\Release\LoLToolsX.exe
+C:\Documents and Settings\NICE\my documents\visual studio 2010\Projects\LoLToolsX\LoLToolsX\bin\Release\LoLToolsX.pdb
+C:\Documents and Settings\NICE\my documents\visual studio 2010\Projects\LoLToolsX\LoLToolsX\bin\Release\LoLToolsX.xml
+C:\Documents and Settings\NICE\my documents\visual studio 2010\Projects\LoLToolsX\LoLToolsX\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\NICE\my documents\visual studio 2010\Projects\LoLToolsX\LoLToolsX\obj\x86\Release\LoLToolsX.ServerSelect.resources
+C:\Documents and Settings\NICE\my documents\visual studio 2010\Projects\LoLToolsX\LoLToolsX\obj\x86\Release\LoLToolsX.Resources.resources
+C:\Documents and Settings\NICE\my documents\visual studio 2010\Projects\LoLToolsX\LoLToolsX\obj\x86\Release\LoLToolsX.ServerStatusForm.resources
+C:\Documents and Settings\NICE\my documents\visual studio 2010\Projects\LoLToolsX\LoLToolsX\obj\x86\Release\LoLToolsX.TwTools.resources
+C:\Documents and Settings\NICE\my documents\visual studio 2010\Projects\LoLToolsX\LoLToolsX\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Documents and Settings\NICE\my documents\visual studio 2010\Projects\LoLToolsX\LoLToolsX\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Documents and Settings\NICE\my documents\visual studio 2010\Projects\LoLToolsX\LoLToolsX\obj\x86\Release\LoLToolsX.exe
+C:\Documents and Settings\NICE\my documents\visual studio 2010\Projects\LoLToolsX\LoLToolsX\obj\x86\Release\LoLToolsX.xml
+C:\Documents and Settings\NICE\my documents\visual studio 2010\Projects\LoLToolsX\LoLToolsX\obj\x86\Release\LoLToolsX.pdb
+C:\Documents and Settings\NICE\my documents\visual studio 2010\Projects\LoLToolsX\LoLToolsX\obj\x86\Release\LoLToolsX.AboutBox1.resources
+C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsXbak\LoLToolsX\bin\Release\Resources\logo.png
+C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsXbak\LoLToolsX\bin\Release\LoLToolsX.exe
+C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsXbak\LoLToolsX\bin\Release\LoLToolsX.pdb
+C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsXbak\LoLToolsX\bin\Release\LoLToolsX.xml
+C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsXbak\LoLToolsX\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsXbak\LoLToolsX\obj\x86\Release\LoLToolsX.AboutBox1.resources
+C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsXbak\LoLToolsX\obj\x86\Release\LoLToolsX.ServerSelect.resources
+C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsXbak\LoLToolsX\obj\x86\Release\LoLToolsX.Resources.resources
+C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsXbak\LoLToolsX\obj\x86\Release\LoLToolsX.ServerStatusForm.resources
+C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsXbak\LoLToolsX\obj\x86\Release\LoLToolsX.TwTools.resources
+C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsXbak\LoLToolsX\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsXbak\LoLToolsX\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsXbak\LoLToolsX\obj\x86\Release\LoLToolsX.exe
+C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsXbak\LoLToolsX\obj\x86\Release\LoLToolsX.xml
+C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsXbak\LoLToolsX\obj\x86\Release\LoLToolsX.pdb
+C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsXbak\LoLToolsX\obj\x86\Release\LoLToolsX.Wait.resources
+C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\obj\x86\Release\LoLToolsX.exe
+C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\obj\x86\Release\LoLToolsX.xml
+C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\obj\x86\Release\LoLToolsX.pdb
+C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\bin\Release\Resources\logo.png
+C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\bin\Release\LoLToolsX.exe
+C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\bin\Release\LoLToolsX.pdb
+C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\bin\Release\LoLToolsX.xml
+C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\obj\x86\Release\LoLToolsX.ServerSelect.resources
+C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\obj\x86\Release\LoLToolsX.Resources.resources
+C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\obj\x86\Release\LoLToolsX.ServerStatusForm.resources
+C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\obj\x86\Release\LoLToolsX.TwTools.resources
+C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\obj\x86\Release\LoLToolsX.Wait.resources
+C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\obj\x86\Release\LoLToolsX.NaTools.resources
+C:\Users\Peter9104\Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\bin\Release\Resources\logo.png
+C:\Users\Peter9104\Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\bin\Release\LoLToolsX.exe
+C:\Users\Peter9104\Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\bin\Release\LoLToolsX.pdb
+C:\Users\Peter9104\Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\bin\Release\LoLToolsX.xml
+C:\Users\Peter9104\Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Peter9104\Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\obj\x86\Release\LoLToolsX.AboutBox1.resources
+C:\Users\Peter9104\Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\obj\x86\Release\LoLToolsX.NaTools.resources
+C:\Users\Peter9104\Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\obj\x86\Release\LoLToolsX.ServerSelect.resources
+C:\Users\Peter9104\Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\obj\x86\Release\LoLToolsX.Resources.resources
+C:\Users\Peter9104\Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\obj\x86\Release\LoLToolsX.ServerStatusForm.resources
+C:\Users\Peter9104\Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\obj\x86\Release\LoLToolsX.TwTools.resources
+C:\Users\Peter9104\Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\obj\x86\Release\LoLToolsX.Wait.resources
+C:\Users\Peter9104\Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Peter9104\Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Peter9104\Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\obj\x86\Release\LoLToolsX.exe
+C:\Users\Peter9104\Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\obj\x86\Release\LoLToolsX.xml
+C:\Users\Peter9104\Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\obj\x86\Release\LoLToolsX.pdb
+C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\bin\Release\INIFile.dll
+C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\bin\Release\INIFile.pdb
+C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\bin\Release\INIFile.xml
+C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\bin\Release\ChatColour.dll
+C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\bin\Release\ChatColour.pdb
+C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\bin\Release\ChatColour.xml
+C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\obj\x86\Release\LoLToolsX.ChatEdit.resources

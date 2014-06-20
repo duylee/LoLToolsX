@@ -1,0 +1,13 @@
+C:\Documents and Settings\NICE\my documents\visual studio 2010\Projects\ChatColour\ChatColour\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\NICE\my documents\visual studio 2010\Projects\ChatColour\ChatColour\obj\Debug\ChatColour.Resources.resources
+C:\Documents and Settings\NICE\my documents\visual studio 2010\Projects\ChatColour\ChatColour\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\NICE\my documents\visual studio 2010\Projects\ChatColour\ChatColour\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\NICE\my documents\visual studio 2010\Projects\ChatColour\ChatColour\bin\Debug\ChatColour.dll
+C:\Documents and Settings\NICE\my documents\visual studio 2010\Projects\ChatColour\ChatColour\bin\Debug\ChatColour.pdb
+C:\Documents and Settings\NICE\my documents\visual studio 2010\Projects\ChatColour\ChatColour\bin\Debug\ChatColour.xml
+C:\Documents and Settings\NICE\my documents\visual studio 2010\Projects\ChatColour\ChatColour\bin\Debug\INIFile.dll
+C:\Documents and Settings\NICE\my documents\visual studio 2010\Projects\ChatColour\ChatColour\bin\Debug\INIFile.pdb
+C:\Documents and Settings\NICE\my documents\visual studio 2010\Projects\ChatColour\ChatColour\bin\Debug\INIFile.xml
+C:\Documents and Settings\NICE\my documents\visual studio 2010\Projects\ChatColour\ChatColour\obj\Debug\ChatColour.dll
+C:\Documents and Settings\NICE\my documents\visual studio 2010\Projects\ChatColour\ChatColour\obj\Debug\ChatColour.xml
+C:\Documents and Settings\NICE\my documents\visual studio 2010\Projects\ChatColour\ChatColour\obj\Debug\ChatColour.pdb

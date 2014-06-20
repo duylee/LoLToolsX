@@ -1,0 +1,13 @@
+C:\Documents and Settings\NICE\my documents\visual studio 2010\Projects\ChatColour\ChatColour\bin\Release\ChatColour.dll
+C:\Documents and Settings\NICE\my documents\visual studio 2010\Projects\ChatColour\ChatColour\bin\Release\ChatColour.pdb
+C:\Documents and Settings\NICE\my documents\visual studio 2010\Projects\ChatColour\ChatColour\bin\Release\ChatColour.xml
+C:\Documents and Settings\NICE\my documents\visual studio 2010\Projects\ChatColour\ChatColour\bin\Release\INIFile.dll
+C:\Documents and Settings\NICE\my documents\visual studio 2010\Projects\ChatColour\ChatColour\bin\Release\INIFile.pdb
+C:\Documents and Settings\NICE\my documents\visual studio 2010\Projects\ChatColour\ChatColour\bin\Release\INIFile.xml
+C:\Documents and Settings\NICE\my documents\visual studio 2010\Projects\ChatColour\ChatColour\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\NICE\my documents\visual studio 2010\Projects\ChatColour\ChatColour\obj\Release\ChatColour.Resources.resources
+C:\Documents and Settings\NICE\my documents\visual studio 2010\Projects\ChatColour\ChatColour\obj\Release\GenerateResource.read.1.tlog
+C:\Documents and Settings\NICE\my documents\visual studio 2010\Projects\ChatColour\ChatColour\obj\Release\GenerateResource.write.1.tlog
+C:\Documents and Settings\NICE\my documents\visual studio 2010\Projects\ChatColour\ChatColour\obj\Release\ChatColour.dll
+C:\Documents and Settings\NICE\my documents\visual studio 2010\Projects\ChatColour\ChatColour\obj\Release\ChatColour.xml
+C:\Documents and Settings\NICE\my documents\visual studio 2010\Projects\ChatColour\ChatColour\obj\Release\ChatColour.pdb

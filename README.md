@@ -1,9 +1,9 @@
 LoLToolsX
 =========
 
-LoLToolsX for League of Legends TW/NA     http://lolnx.pixub.com
+#LoLToolsX for League of Legends TW/NA     http://lolnx.pixub.com
 
-Function:
+#Function:
 1. Using this application, you can easily switch the server of LoL. 
 2. Also, you can install sound pack which can download from my official blog.
 3. You can switch the languege in-game or lobby between English and Traditional Chinese

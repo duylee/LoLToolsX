@@ -2,6 +2,9 @@
 
 Public Class SwitchLang
 
+   ''' <summary>
+   ''' 語言切換
+   ''' </summary>
 
     Public Shared Sub SwitchLang(ByVal type As Integer, ByVal path As String)
 

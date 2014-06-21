@@ -69,3 +69,26 @@ C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLTools
 C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\bin\Release\ChatColour.pdb
 C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\bin\Release\ChatColour.xml
 C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\obj\x86\Release\LoLToolsX.ChatEdit.resources
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\obj\x86\Release\LoLToolsX.exe
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\obj\x86\Release\LoLToolsX.xml
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\obj\x86\Release\LoLToolsX.pdb
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\bin\Release\Resources\logo.png
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\bin\Release\LoLToolsX.exe
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\bin\Release\LoLToolsX.pdb
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\bin\Release\LoLToolsX.xml
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\bin\Release\ChatColour.dll
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\bin\Release\INIFile.dll
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\bin\Release\ChatColour.pdb
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\bin\Release\ChatColour.xml
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\bin\Release\INIFile.pdb
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\bin\Release\INIFile.xml
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\obj\x86\Release\ResolveAssemblyReference.cache
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\obj\x86\Release\LoLToolsX.ChatEdit.resources
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\obj\x86\Release\LoLToolsX.NaTools.resources
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\obj\x86\Release\LoLToolsX.ServerSelect.resources
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\obj\x86\Release\LoLToolsX.Resources.resources
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\obj\x86\Release\LoLToolsX.ServerStatusForm.resources
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\obj\x86\Release\LoLToolsX.TwTools.resources
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\obj\x86\Release\LoLToolsX.Wait.resources
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\obj\x86\Release\GenerateResource.read.1.tlog
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\obj\x86\Release\GenerateResource.write.1.tlog

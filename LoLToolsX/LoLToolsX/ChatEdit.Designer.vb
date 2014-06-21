@@ -24,6 +24,14 @@ Partial Class ChatEdit
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ChatEdit))
         Me.GroupBox5 = New System.Windows.Forms.GroupBox()
+        Me.Button14 = New System.Windows.Forms.Button()
+        Me.Button20 = New System.Windows.Forms.Button()
+        Me.Button21 = New System.Windows.Forms.Button()
+        Me.GS = New System.Windows.Forms.TextBox()
+        Me.BS = New System.Windows.Forms.TextBox()
+        Me.RS = New System.Windows.Forms.TextBox()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.R5 = New System.Windows.Forms.TextBox()
         Me.Button19 = New System.Windows.Forms.Button()
         Me.Button18 = New System.Windows.Forms.Button()
         Me.Button17 = New System.Windows.Forms.Button()
@@ -36,7 +44,6 @@ Partial Class ChatEdit
         Me.Button8 = New System.Windows.Forms.Button()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.B5 = New System.Windows.Forms.TextBox()
-        Me.R5 = New System.Windows.Forms.TextBox()
         Me.G5 = New System.Windows.Forms.TextBox()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
@@ -62,8 +69,6 @@ Partial Class ChatEdit
         Me.B = New System.Windows.Forms.TextBox()
         Me.R = New System.Windows.Forms.TextBox()
         Me.G = New System.Windows.Forms.TextBox()
-        Me.ShapeContainer1 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
-        Me.LineShape1 = New Microsoft.VisualBasic.PowerPacks.LineShape()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.FontSize1 = New System.Windows.Forms.TextBox()
         Me.Button9 = New System.Windows.Forms.Button()
@@ -73,14 +78,6 @@ Partial Class ChatEdit
         Me.Button12 = New System.Windows.Forms.Button()
         Me.Button13 = New System.Windows.Forms.Button()
         Me.ColorDialog1 = New System.Windows.Forms.ColorDialog()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.RS = New System.Windows.Forms.TextBox()
-        Me.BS = New System.Windows.Forms.TextBox()
-        Me.GS = New System.Windows.Forms.TextBox()
-        Me.Button14 = New System.Windows.Forms.Button()
-        Me.Button20 = New System.Windows.Forms.Button()
-        Me.Button21 = New System.Windows.Forms.Button()
-        Me.LineShape3 = New Microsoft.VisualBasic.PowerPacks.LineShape()
         Me.GroupBox5.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
@@ -132,13 +129,77 @@ Partial Class ChatEdit
         Me.GroupBox5.Controls.Add(Me.B)
         Me.GroupBox5.Controls.Add(Me.R)
         Me.GroupBox5.Controls.Add(Me.G)
-        Me.GroupBox5.Controls.Add(Me.ShapeContainer1)
         Me.GroupBox5.Location = New System.Drawing.Point(23, 12)
         Me.GroupBox5.Name = "GroupBox5"
         Me.GroupBox5.Size = New System.Drawing.Size(562, 347)
         Me.GroupBox5.TabIndex = 7
         Me.GroupBox5.TabStop = False
         Me.GroupBox5.Text = "顏色修改"
+        '
+        'Button14
+        '
+        Me.Button14.Location = New System.Drawing.Point(295, 80)
+        Me.Button14.Name = "Button14"
+        Me.Button14.Size = New System.Drawing.Size(69, 23)
+        Me.Button14.TabIndex = 10
+        Me.Button14.Text = "顏色選擇"
+        Me.Button14.UseVisualStyleBackColor = True
+        '
+        'Button20
+        '
+        Me.Button20.Location = New System.Drawing.Point(472, 78)
+        Me.Button20.Name = "Button20"
+        Me.Button20.Size = New System.Drawing.Size(69, 23)
+        Me.Button20.TabIndex = 12
+        Me.Button20.Text = "預設值"
+        Me.Button20.UseVisualStyleBackColor = True
+        '
+        'Button21
+        '
+        Me.Button21.Location = New System.Drawing.Point(383, 78)
+        Me.Button21.Name = "Button21"
+        Me.Button21.Size = New System.Drawing.Size(69, 23)
+        Me.Button21.TabIndex = 11
+        Me.Button21.Text = "修改"
+        Me.Button21.UseVisualStyleBackColor = True
+        '
+        'GS
+        '
+        Me.GS.Location = New System.Drawing.Point(176, 81)
+        Me.GS.Name = "GS"
+        Me.GS.Size = New System.Drawing.Size(35, 20)
+        Me.GS.TabIndex = 8
+        '
+        'BS
+        '
+        Me.BS.Location = New System.Drawing.Point(232, 81)
+        Me.BS.Name = "BS"
+        Me.BS.Size = New System.Drawing.Size(35, 20)
+        Me.BS.TabIndex = 9
+        '
+        'RS
+        '
+        Me.RS.Location = New System.Drawing.Point(119, 81)
+        Me.RS.Name = "RS"
+        Me.RS.Size = New System.Drawing.Size(35, 20)
+        Me.RS.TabIndex = 7
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("微軟正黑體", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(10, 84)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(95, 17)
+        Me.Label9.TabIndex = 34
+        Me.Label9.Text = "友方文字顏色 : "
+        '
+        'R5
+        '
+        Me.R5.Location = New System.Drawing.Point(120, 268)
+        Me.R5.Name = "R5"
+        Me.R5.Size = New System.Drawing.Size(35, 20)
+        Me.R5.TabIndex = 31
         '
         'Button19
         '
@@ -246,13 +307,6 @@ Partial Class ChatEdit
         Me.B5.Name = "B5"
         Me.B5.Size = New System.Drawing.Size(35, 20)
         Me.B5.TabIndex = 33
-        '
-        'R5
-        '
-        Me.R5.Location = New System.Drawing.Point(120, 268)
-        Me.R5.Name = "R5"
-        Me.R5.Size = New System.Drawing.Size(35, 20)
-        Me.R5.TabIndex = 31
         '
         'G5
         '
@@ -457,25 +511,6 @@ Partial Class ChatEdit
         Me.G.Size = New System.Drawing.Size(35, 20)
         Me.G.TabIndex = 2
         '
-        'ShapeContainer1
-        '
-        Me.ShapeContainer1.Location = New System.Drawing.Point(3, 16)
-        Me.ShapeContainer1.Margin = New System.Windows.Forms.Padding(0)
-        Me.ShapeContainer1.Name = "ShapeContainer1"
-        Me.ShapeContainer1.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.LineShape3, Me.LineShape1})
-        Me.ShapeContainer1.Size = New System.Drawing.Size(556, 328)
-        Me.ShapeContainer1.TabIndex = 33
-        Me.ShapeContainer1.TabStop = False
-        '
-        'LineShape1
-        '
-        Me.LineShape1.Enabled = False
-        Me.LineShape1.Name = "LineShape1"
-        Me.LineShape1.X1 = 161
-        Me.LineShape1.X2 = 162
-        Me.LineShape1.Y1 = 7
-        Me.LineShape1.Y2 = 282
-        '
         'GroupBox1
         '
         Me.GroupBox1.Controls.Add(Me.FontSize1)
@@ -551,73 +586,6 @@ Partial Class ChatEdit
         Me.Button13.Text = "一鍵恢復預設值"
         Me.Button13.UseVisualStyleBackColor = True
         '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("微軟正黑體", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(10, 84)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(95, 17)
-        Me.Label9.TabIndex = 34
-        Me.Label9.Text = "友方文字顏色 : "
-        '
-        'RS
-        '
-        Me.RS.Location = New System.Drawing.Point(119, 81)
-        Me.RS.Name = "RS"
-        Me.RS.Size = New System.Drawing.Size(35, 20)
-        Me.RS.TabIndex = 7
-        '
-        'BS
-        '
-        Me.BS.Location = New System.Drawing.Point(232, 81)
-        Me.BS.Name = "BS"
-        Me.BS.Size = New System.Drawing.Size(35, 20)
-        Me.BS.TabIndex = 9
-        '
-        'GS
-        '
-        Me.GS.Location = New System.Drawing.Point(176, 81)
-        Me.GS.Name = "GS"
-        Me.GS.Size = New System.Drawing.Size(35, 20)
-        Me.GS.TabIndex = 8
-        '
-        'Button14
-        '
-        Me.Button14.Location = New System.Drawing.Point(295, 80)
-        Me.Button14.Name = "Button14"
-        Me.Button14.Size = New System.Drawing.Size(69, 23)
-        Me.Button14.TabIndex = 10
-        Me.Button14.Text = "顏色選擇"
-        Me.Button14.UseVisualStyleBackColor = True
-        '
-        'Button20
-        '
-        Me.Button20.Location = New System.Drawing.Point(472, 78)
-        Me.Button20.Name = "Button20"
-        Me.Button20.Size = New System.Drawing.Size(69, 23)
-        Me.Button20.TabIndex = 12
-        Me.Button20.Text = "預設值"
-        Me.Button20.UseVisualStyleBackColor = True
-        '
-        'Button21
-        '
-        Me.Button21.Location = New System.Drawing.Point(383, 78)
-        Me.Button21.Name = "Button21"
-        Me.Button21.Size = New System.Drawing.Size(69, 23)
-        Me.Button21.TabIndex = 11
-        Me.Button21.Text = "修改"
-        Me.Button21.UseVisualStyleBackColor = True
-        '
-        'LineShape3
-        '
-        Me.LineShape3.Enabled = False
-        Me.LineShape3.Name = "LineShape3"
-        Me.LineShape3.X1 = 216
-        Me.LineShape3.X2 = 217
-        Me.LineShape3.Y1 = 7
-        Me.LineShape3.Y2 = 282
-        '
         'ChatEdit
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -684,8 +652,6 @@ Partial Class ChatEdit
     Friend WithEvents Label8 As System.Windows.Forms.Label
     Friend WithEvents Label7 As System.Windows.Forms.Label
     Friend WithEvents Label6 As System.Windows.Forms.Label
-    Friend WithEvents ShapeContainer1 As Microsoft.VisualBasic.PowerPacks.ShapeContainer
-    Friend WithEvents LineShape1 As Microsoft.VisualBasic.PowerPacks.LineShape
     Friend WithEvents ColorDialog1 As System.Windows.Forms.ColorDialog
     Friend WithEvents Button19 As System.Windows.Forms.Button
     Friend WithEvents Button18 As System.Windows.Forms.Button
@@ -699,5 +665,4 @@ Partial Class ChatEdit
     Friend WithEvents BS As System.Windows.Forms.TextBox
     Friend WithEvents RS As System.Windows.Forms.TextBox
     Friend WithEvents Label9 As System.Windows.Forms.Label
-    Friend WithEvents LineShape3 As Microsoft.VisualBasic.PowerPacks.LineShape
 End Class

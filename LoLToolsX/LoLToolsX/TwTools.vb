@@ -2,33 +2,13 @@
 Imports System.IO
 Imports System.Threading
 
-'Imports StartGame
-'Imports SwitchLang
-'Imports INIFile
-'Imports Update
+Imports ChatColour
+Imports INIFile
 
 
 Public Class TwTools
 
-    Public Shared installPath As String = ""
-    Public Shared lolVersion As String
-    Public Shared lolprop As String
-    Public Shared targetsite As String
-    Public Shared hudPath As String
-    ' Public Shared folderPath As String = ""             'SwitchSound
-
-
-
-
-
-
     Public Sub TwTools_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-
-
-
-
-
-
 
         NotifyIcon1.Visible = False
 
@@ -43,7 +23,7 @@ Public Class TwTools
 
 
 
-        '從登錄碼尋找LOL安裝路徑 2
+        '從登錄碼尋找LOL安裝路徑 
         If installPath = "" Then
             If My.Computer.Registry.GetValue("HKEY_LOCAL_MACHINE\SOFTWARE\Garena\LoLTW", "Path", Nothing) Is Nothing Then
 
@@ -65,42 +45,27 @@ Public Class TwTools
             End If
         End If
 
+        '找不到就關閉程式
         If installPath = "" Then
             MsgBox(" 找不到LoL安裝路徑，請手動選擇 GemeData\Apps\LoLTW 目錄", MsgBoxStyle.Information + MsgBoxStyle.OkOnly, "提示")
-            Me.FolderBrowserDialog1.ShowDialog()
-            installPath = Me.FolderBrowserDialog1.SelectedPath
-        End If
+            Dim dlr As New DialogResult
+            If dlr = Windows.Forms.DialogResult.OK Then
+                dlr = Me.FolderBrowserDialog1.ShowDialog()
+                If Me.FolderBrowserDialog1.SelectedPath.Contains("LoLTW") Then
+                    installPath = Me.FolderBrowserDialog1.SelectedPath
+                Else
+                    MsgBox("LoL安裝目錄選擇錯誤，按'確定'重新選擇", MsgBoxStyle.OkCancel + MsgBoxStyle.Information, Nothing)
+                    Me.FolderBrowserDialog1.ShowDialog()
+                    If Me.FolderBrowserDialog1.SelectedPath.Contains("LoLTW") Then
+                        installPath = Me.FolderBrowserDialog1.SelectedPath
+                    Else
+                        MsgBox("LoL安裝目錄選擇錯誤，按'確定'關閉程式", MsgBoxStyle.OkCancel + MsgBoxStyle.Information, Nothing)
+                        Application.Exit()
+                    End If
 
-
-        If installPath.Contains("LoLTW") <> True Then
-
-
-            MsgBox("LoL安裝目錄選擇錯誤，按'確定'重新選擇", MsgBoxStyle.OkCancel + MsgBoxStyle.Information, Nothing)
-
-            '如果按下確定的話'
-            FolderBrowserDialog1.ShowDialog()
-            installPath = FolderBrowserDialog1.SelectedPath
-
-
-        End If
-
-
-        If installPath = "" Then
-
-
-            MsgBox("LoL安裝目錄選擇錯誤，按'確定'重新選擇", MsgBoxStyle.OkCancel + MsgBoxStyle.Information, Nothing)
-
-            If MsgBoxResult.Ok = True Then                       '如果按下確定的話'
-                FolderBrowserDialog1.ShowDialog()
-                installPath = FolderBrowserDialog1.SelectedPath
-            ElseIf MsgBoxResult.Cancel = True Then
-                Application.Exit()
+                End If
             End If
-
-
         End If
-
-
 
 
         '把 installPath 存入 config.ini
@@ -108,14 +73,10 @@ Public Class TwTools
 
             If installPath.Contains("LoLTW") Then
                 ini.WriteString("LoLPath", "TwPath", installPath)
-
+            Else
+                MsgBox("LoL安裝目錄選擇錯誤，按'確定'關閉程式", MsgBoxStyle.OkCancel + MsgBoxStyle.Information, Nothing)
             End If
         End If
-
-
-
-
-
 
 
         'LOL安裝目錄
@@ -152,13 +113,10 @@ Public Class TwTools
         CheckPropFirstLine()
 
         Try
-            WebBrowser1.Navigate("http://lolnx.pixub.com/loltoolsx/stat.html")
+            WebBrowser1.Navigate("http://lolnx.pixub.com/loltoolsx/stat.html", False)
         Catch ex As Exception
 
         End Try
-
-
-
 
         websiteIn.Text = ""
 
@@ -180,35 +138,25 @@ Public Class TwTools
                 serverLocation.Text = stringReader
 
                 If stringReader = "host=prodtw.lol.garenanow.com" Then
-                    'lolLocation = "台服"
                     serverLocation.Text = "台服"
                 ElseIf stringReader = "host=prod.na1.lol.riotgames.com" Then
-                    'lolLocation = "美服"
                     serverLocation.Text = "美服"
                 ElseIf stringReader = "host=prod.eu.lol.riotgames.com" Then
-                    'lolLocation = "EUW服"
                     serverLocation.Text = "EUW服"
                 ElseIf stringReader = "regionTag=eune" Then
-                    'lolLocation = "EUNE服"
                     serverLocation.Text = "EUNE服"
                 ElseIf stringReader = "host=prod.oc1.lol.riotgames.com" Then
-                    'lolLocation = "大洋洲服"
                     serverLocation.Text = "大洋洲服"
                 ElseIf stringReader = "host=prod.lol.garenanow.com" Then
-                    'lolLocation = "SEA服"
                     serverLocation.Text = "SEA服"
                 ElseIf stringReader = "host=prod.pbe1.lol.riotgames.com" Then
-                    'lolLocation = "PBE服"
                     serverLocation.Text = "PBE服"
                 ElseIf stringReader = "host=prod.kr.lol.riotgames.com" Then
-                    'lolLocation = "韓服"
                     serverLocation.Text = "韓服"
                 Else
-                    'lolLocation = "未知"
                     serverLocation.Text = "未知"
                 End If
 
-                '關閉 fileReader 以免無法存取 lol.properties
                 fileReader.Close()
 
 
@@ -227,27 +175,22 @@ Public Class TwTools
         Application.Exit()
     End Sub
 
-    Private Sub PictureBox1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox1.Click
-
-    End Sub
 
     Private Sub serverStatus_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles serverStatus.Click
         ServerStatusForm.Show()
     End Sub
 
-
-
-
-
-
-
     Private Sub Button10_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles updateButton.Click
 
         Wait.Show()
         '檢查更新
-        CheckUpdate1.CheckUpdate()
-        Wait.Close()
+        Try
+            CheckUpdate1.CheckUpdate()
+        Catch ex As Exception
 
+        End Try
+
+        Wait.Close()
 
     End Sub
 
@@ -256,15 +199,9 @@ Public Class TwTools
             If TwTools.serverLocation.Text = "台服" Then
                 StartGame.StartLoLTW()
             ElseIf TwTools.serverLocation.Text = "SEA服" Then
-
-
                 StartGame.StartLoLTW()
             Else
-
-
                 StartGame.StartLoL(installPath + "\lol.exe")
-
-
             End If
 
             TwTools.Hide()
@@ -276,10 +213,6 @@ Public Class TwTools
         Catch ex As Exception
             MsgBox("遊戲啟動失敗", MsgBoxStyle.Critical + MsgBoxStyle.OkOnly, "錯誤")
         End Try
-
-
-
-
     End Sub
 
 
@@ -307,7 +240,6 @@ Public Class TwTools
         serverLocation.Text = "EUW服"
         SwitchServer.SwitchServer(lolprop, "EUW服")
     End Sub
-
 
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
         serverLocation.Text = "PBE服"
@@ -337,27 +269,19 @@ Public Class TwTools
     End Sub
 
     Private Sub lChin_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lChin.Click
-
         SwitchLang.SwitchLang(1, installPath)
-
     End Sub
 
     Private Sub lEng_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lEng.Click
-
         SwitchLang.SwitchLang(2, installPath)
-
     End Sub
 
     Private Sub gChin_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles gChin.Click
-
         SwitchLang.SwitchLang(3, installPath)
-
     End Sub
 
     Private Sub gEng_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles gEng.Click
-
         SwitchLang.SwitchLang(4, installPath)
-
     End Sub
 
     Private Sub BakLang_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BakLang.Click
@@ -374,8 +298,6 @@ Public Class TwTools
 
     Private Sub Button10_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button10.Click
         Try
-
-
             FolderBrowserDialog2.ShowDialog()
 
             If FolderBrowserDialog2.SelectedPath().Contains("Sound") Then
@@ -386,20 +308,14 @@ Public Class TwTools
         Catch ex As Exception
 
         End Try
-
     End Sub
 
     Private Sub installSound_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles installSound.Click
-
-
         If FolderBrowserDialog2.SelectedPath().Contains("Sound") Then
             SwitchSound.SwitchSound("lobby", FolderBrowserDialog2.SelectedPath(), installPath)
         Else
             MsgBox("路徑選擇錯誤 ", MsgBoxStyle.Critical + MsgBoxStyle.OkOnly, "提示")
         End If
-
-
-
     End Sub
 
     Private Sub Button11_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button11.Click
@@ -463,11 +379,11 @@ Public Class TwTools
 
             End Try
 
+
+
             Try
                 FileCopy("bak\sound\VOBank_zh_CN.fsb", installPath + "\Game\DATA\Sounds\FMOD\VOBank_zh_CN.fsb")
             Catch ex As Exception
-
-
 
             End Try
 
@@ -531,12 +447,6 @@ Public Class TwTools
             LobbyLandingEdit.LobbyLandingEdit(installPath, targetsite)
         End If
 
-
-
-
-
-
-
     End Sub
 
     Private Sub Button17_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button17.Click
@@ -556,15 +466,16 @@ Public Class TwTools
     End Sub
 
     Public Shared Sub chooseHUD_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles chooseHUD.Click
-        TwTools.OpenFileDialog1.ShowDialog()
-
-        hudPath = TwTools.OpenFileDialog1.FileName()
+            TwTools.OpenFileDialog1.ShowDialog()
+        hudPath = TwTools.OpenFileDialog1.FileName
 
         If hudPath.Contains("HUDAtlas") Then
 
         Else
             MsgBox("請選擇正確的遊戲UI檔案", MsgBoxStyle.Critical + MsgBoxStyle.OkOnly, "錯誤")
         End If
+
+        TwTools.OpenFileDialog1.Dispose()
 
     End Sub
 
@@ -598,13 +509,11 @@ Public Class TwTools
 
 
     Private Sub installHUD_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles installHUD.Click
-
         Try
             InstallUI.InstallGameUI(hudPath, installPath)
         Catch ex As Exception
             MsgBox("安裝UI失敗" & vbCrLf & "錯誤信息: " & ex.Message, MsgBoxStyle.Critical + MsgBoxStyle.OkOnly, "錯誤")
         End Try
-
     End Sub
 
 
@@ -616,12 +525,8 @@ Public Class TwTools
         Me.NotifyIcon1.Visible = False
     End Sub
 
-
-
     Private Sub Button22_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button22.Click
         ChatEdit.Show()
     End Sub
-
-
 End Class
 

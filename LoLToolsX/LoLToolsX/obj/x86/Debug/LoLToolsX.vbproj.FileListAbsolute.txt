@@ -82,3 +82,26 @@ C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLTools
 C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\bin\Debug\ChatColour.pdb
 C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\bin\Debug\ChatColour.xml
 C:\Documents and Settings\NICE\My Documents\Visual Studio 2010\Projects\LoLToolsX1\LoLToolsX\obj\x86\Debug\LoLToolsX.ChatEdit.resources
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\bin\Debug\Resources\logo.png
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\bin\Debug\LoLToolsX.exe
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\bin\Debug\LoLToolsX.pdb
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\bin\Debug\LoLToolsX.xml
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\bin\Debug\ChatColour.dll
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\bin\Debug\INIFile.dll
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\bin\Debug\ChatColour.pdb
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\bin\Debug\ChatColour.xml
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\bin\Debug\INIFile.pdb
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\bin\Debug\INIFile.xml
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\obj\x86\Debug\ResolveAssemblyReference.cache
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\obj\x86\Debug\LoLToolsX.ChatEdit.resources
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\obj\x86\Debug\LoLToolsX.NaTools.resources
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\obj\x86\Debug\LoLToolsX.ServerSelect.resources
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\obj\x86\Debug\LoLToolsX.Resources.resources
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\obj\x86\Debug\LoLToolsX.ServerStatusForm.resources
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\obj\x86\Debug\LoLToolsX.TwTools.resources
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\obj\x86\Debug\LoLToolsX.Wait.resources
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\obj\x86\Debug\GenerateResource.read.1.tlog
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\obj\x86\Debug\GenerateResource.write.1.tlog
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\obj\x86\Debug\LoLToolsX.exe
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\obj\x86\Debug\LoLToolsX.xml
+K:\git\LoLToolsX\LoLToolsX\LoLToolsX\obj\x86\Debug\LoLToolsX.pdb

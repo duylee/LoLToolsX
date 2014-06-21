@@ -9,7 +9,6 @@ Public Class NaTools
     Public Shared lolexePath As String
     Public Shared lolprop As String
     Public Shared targetsite As String
-    Public Shared hudPath As String
     Public Shared naairVer As String
     Public Shared nagameVer As String
 

@@ -10,11 +10,13 @@ Public Class ServerSelect
 
     Private Sub selectTW_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles selectTW.Click
         TwTools.Show()
+        GC.Collect()
         Me.Hide()
     End Sub
 
     Private Sub selectNA_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles selectNA.Click
         NaTools.Show()
+        GC.Collect()
         Me.Hide()
     End Sub
 

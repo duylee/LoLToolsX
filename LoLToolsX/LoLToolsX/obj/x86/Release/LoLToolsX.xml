@@ -6,41 +6,33 @@ LoLToolsX
 </name>
 </assembly>
 <members>
-<member name="F:LoLToolsX.CheckUpdate1.thread">
-	<summary>
- 檢查 LoLToolsX 更新
- </summary>
-</member><member name="M:LoLToolsX.SwitchServer.SwitchServer(System.Object,System.Object)">
-	<summary>
- 伺服器切換
- </summary>
-</member><member name="M:LoLToolsX.BakResLang.BakResLang(System.Int32,System.String)">
-	<summary>
- 備份/還原 語言
- </summary>
-</member><member name="M:LoLToolsX.LobbyLandingEdit.LobbyLandingEdit(System.String,System.String)">
+<member name="M:LoLToolsX.LobbyLandingEdit.LobbyLandingEdit(System.String,System.String)">
 	<summary>
  大廳網頁修改
  </summary>
-</member><member name="M:LoLToolsX.Update1.Update1">
+</member><member name="F:LoLToolsX.CheckUpdate1.thread">
 	<summary>
- 更新 LoLToolsX
+ 檢查 LoLToolsX 更新
  </summary>
-</member><member name="M:LoLToolsX.BakResProp.BakResProp(System.Int32,System.String)">
+</member><member name="M:LoLToolsX.InstallUI.InstallGameUI(System.String,System.String)">
 	<summary>
- 備份/還原 lol.properties
+ UI安裝
  </summary>
 </member><member name="M:LoLToolsX.StartGame.StartLoLTW">
 	<summary>
  開啟遊戲
  </summary>
-</member><member name="M:LoLToolsX.SwitchLang.SwitchLang(System.Int32,System.String)">
+</member><member name="M:LoLToolsX.SwitchServer.SwitchServer(System.Object,System.Object)">
 	<summary>
- 語言切換
+ 伺服器切換
  </summary>
-</member><member name="M:LoLToolsX.InstallUI.InstallGameUI(System.String,System.String)">
+</member><member name="M:LoLToolsX.Update1.Update1">
 	<summary>
- UI安裝
+ 更新 LoLToolsX
+ </summary>
+</member><member name="M:LoLToolsX.BakResLang.BakResLang(System.Int32,System.String)">
+	<summary>
+ 備份/還原 語言
  </summary>
 </member><member name="P:LoLToolsX.My.Resources.Resources.ResourceManager">
 	<summary>
@@ -58,6 +50,14 @@ LoLToolsX
 </member><member name="M:LoLToolsX.SwitchSound.SwitchSound(System.String,System.String,System.String)">
 	<summary>
  語音切換
+ </summary>
+</member><member name="M:LoLToolsX.BakResProp.BakResProp(System.Int32,System.String)">
+	<summary>
+ 備份/還原 lol.properties
+ </summary>
+</member><member name="M:LoLToolsX.SwitchLang.SwitchLang(System.Int32,System.String)">
+	<summary>
+ 語言切換
  </summary>
 </member>
 </members>

@@ -32,12 +32,12 @@
 
     Private Sub Button22_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button22.Click
         Try
-            Dim cc As New ChatColour.ChatColour
-            cc.WriteFriendlyColour(TwTools.installPath, R.Text, G.Text, B.Text)
-            ini.WriteInteger("ChatColour", "R", R.Text)
-            ini.WriteInteger("ChatColour", "G", G.Text)
-            ini.WriteInteger("ChatColour", "B", B.Text)
-            MsgBox("修改成功!", MsgBoxStyle.Information + MsgBoxStyle.OkOnly, "提示")
+                Dim cc As New ChatColour.ChatColour
+                cc.WriteFriendlyColour(installPath, R.Text, G.Text, B.Text)
+                ini.WriteInteger("ChatColour", "R", R.Text)
+                ini.WriteInteger("ChatColour", "G", G.Text)
+                ini.WriteInteger("ChatColour", "B", B.Text)
+                MsgBox("修改成功!", MsgBoxStyle.Information + MsgBoxStyle.OkOnly, "提示")
         Catch ex As Exception
             MsgBox("修改失敗", MsgBoxStyle.Critical + MsgBoxStyle.OkOnly, "錯誤")
         End Try
@@ -51,7 +51,7 @@
             ini.WriteInteger("ChatColour", "R", 0)
             ini.WriteInteger("ChatColour", "G", 255)
             ini.WriteInteger("ChatColour", "B", 0)
-            cc.WriteFriendlyColour(TwTools.installPath, 0, 255, 0)
+            cc.WriteFriendlyColour(installPath, 0, 255, 0)
             R.Text = 0
             G.Text = 255
             B.Text = 0
@@ -68,7 +68,7 @@
             ini.WriteInteger("ChatColour", "R2", R2.Text)
             ini.WriteInteger("ChatColour", "G2", G2.Text)
             ini.WriteInteger("ChatColour", "B2", B2.Text)
-            cc.WriteAllChatColor(TwTools.installPath, R2.Text, G2.Text, B2.Text)
+            cc.WriteAllChatColor(installPath, R2.Text, G2.Text, B2.Text)
             MsgBox("修改成功!", MsgBoxStyle.Information + MsgBoxStyle.OkOnly, "提示")
         Catch ex As Exception
             MsgBox("修改失敗", MsgBoxStyle.Critical + MsgBoxStyle.OkOnly, "錯誤")
@@ -82,7 +82,7 @@
             ini.WriteInteger("ChatColour", "R2", 255)
             ini.WriteInteger("ChatColour", "G2", 255)
             ini.WriteInteger("ChatColour", "B2", 255)
-            cc.WriteAllChatColor(TwTools.installPath, 255, 255, 255)
+            cc.WriteAllChatColor(installPath, 255, 255, 255)
             R2.Text = 255
             G2.Text = 255
             B2.Text = 255
@@ -99,7 +99,7 @@
             ini.WriteInteger("ChatColour", "R3", R3.Text)
             ini.WriteInteger("ChatColour", "G3", G3.Text)
             ini.WriteInteger("ChatColour", "B3", B3.Text)
-            cc.WriteEnemyColor(TwTools.installPath, R3.Text, G3.Text, B3.Text)
+            cc.WriteEnemyColor(installPath, R3.Text, G3.Text, B3.Text)
             MsgBox("修改成功!", MsgBoxStyle.Information + MsgBoxStyle.OkOnly, "提示")
         Catch ex As Exception
             MsgBox("修改失敗", MsgBoxStyle.Critical + MsgBoxStyle.OkOnly, "錯誤")
@@ -113,7 +113,7 @@
             ini.WriteInteger("ChatColour", "R3", 255)
             ini.WriteInteger("ChatColour", "G3", 51)
             ini.WriteInteger("ChatColour", "B3", 51)
-            cc.WriteEnemyColor(TwTools.installPath, 255, 51, 51)
+            cc.WriteEnemyColor(installPath, 255, 51, 51)
             R3.Text = 255
             G3.Text = 51
             B3.Text = 51
@@ -130,7 +130,7 @@
             ini.WriteInteger("ChatColour", "R4", R4.Text)
             ini.WriteInteger("ChatColour", "G4", G4.Text)
             ini.WriteInteger("ChatColour", "B4", B4.Text)
-            cc.WriteWhisperColor(TwTools.installPath, R4.Text, G4.Text, B4.Text)
+            cc.WriteWhisperColor(installPath, R4.Text, G4.Text, B4.Text)
             MsgBox("修改成功!", MsgBoxStyle.Information + MsgBoxStyle.OkOnly, "提示")
         Catch ex As Exception
             MsgBox("修改失敗", MsgBoxStyle.Critical + MsgBoxStyle.OkOnly, "錯誤")
@@ -144,7 +144,7 @@
             ini.WriteInteger("ChatColour", "R4", 241)
             ini.WriteInteger("ChatColour", "G4", 231)
             ini.WriteInteger("ChatColour", "B4", 22)
-            cc.WriteWhisperColor(TwTools.installPath, 241, 231, 22)
+            cc.WriteWhisperColor(installPath, 241, 231, 22)
             R4.Text = 241
             G4.Text = 231
             B4.Text = 22
@@ -161,7 +161,7 @@
             ini.WriteInteger("ChatColour", "R5", R5.Text)
             ini.WriteInteger("ChatColour", "G5", G5.Text)
             ini.WriteInteger("ChatColour", "B5", B5.Text)
-            cc.WriteTimestampColor(TwTools.installPath, R5.Text, G5.Text, B5.Text)
+            cc.WriteTimestampColor(installPath, R5.Text, G5.Text, B5.Text)
             MsgBox("修改成功!", MsgBoxStyle.Information + MsgBoxStyle.OkOnly, "提示")
         Catch ex As Exception
             MsgBox("修改失敗", MsgBoxStyle.Critical + MsgBoxStyle.OkOnly, "錯誤")
@@ -175,7 +175,7 @@
             ini.WriteInteger("ChatColour", "R5", 220)
             ini.WriteInteger("ChatColour", "G5", 220)
             ini.WriteInteger("ChatColour", "B5", 220)
-            cc.WriteTimestampColor(TwTools.installPath, 220, 220, 220)
+            cc.WriteTimestampColor(installPath, 220, 220, 220)
             R5.Text = 220
             G5.Text = 220
             B5.Text = 220
@@ -190,7 +190,7 @@
         Try
             Dim cc As New ChatColour.ChatColour
             ini.WriteInteger("ChatFontSize", "FontSize", FontSize1.Text)
-            cc.WriteFontSize(TwTools.installPath, FontSize1.Text)
+            cc.WriteFontSize(installPath, FontSize1.Text)
             MsgBox("修改成功!", MsgBoxStyle.Information + MsgBoxStyle.OkOnly, "提示")
         Catch ex As Exception
             MsgBox("修改失敗", MsgBoxStyle.Critical + MsgBoxStyle.OkOnly, "錯誤")
@@ -201,7 +201,7 @@
         Try
             Dim cc As New ChatColour.ChatColour
             ini.WriteInteger("ChatFontSize", "FontSize", 20)
-            cc.WriteFontSize(TwTools.installPath, 20)
+            cc.WriteFontSize(installPath, 20)
             FontSize1.Text = 20
             MsgBox("恢復成功!", MsgBoxStyle.Information + MsgBoxStyle.OkOnly, "提示")
         Catch ex As Exception
@@ -211,7 +211,7 @@
 
     Private Sub Button11_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button11.Click
         Try
-            FileCopy(TwTools.installPath + "\Game\DATA\Menu\HUD\defaults\Chat.ini", "bak\Chat\Chat.ini")
+            FileCopy(installPath + "\Game\DATA\Menu\HUD\defaults\Chat.ini", "bak\Chat\Chat.ini")
             MsgBox("備份成功!", MsgBoxStyle.Information + MsgBoxStyle.OkOnly, "提示")
         Catch ex As Exception
             MsgBox("備份失敗", MsgBoxStyle.Critical + MsgBoxStyle.OkOnly, "錯誤")
@@ -220,7 +220,7 @@
 
     Private Sub Button12_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button12.Click
         Try
-            FileCopy("bak\Chat\Chat.ini", TwTools.installPath + "\Game\DATA\Menu\HUD\defaults\Chat.ini")
+            FileCopy("bak\Chat\Chat.ini", installPath + "\Game\DATA\Menu\HUD\defaults\Chat.ini")
             MsgBox("還原成功!", MsgBoxStyle.Information + MsgBoxStyle.OkOnly, "提示")
         Catch ex As Exception
             MsgBox("還原失敗", MsgBoxStyle.Critical + MsgBoxStyle.OkOnly, "錯誤")
@@ -233,7 +233,7 @@
             ini.WriteInteger("ChatColour", "R", 0)
             ini.WriteInteger("ChatColour", "G", 255)
             ini.WriteInteger("ChatColour", "B", 0)
-            cc.WriteFriendlyColour(TwTools.installPath, 0, 255, 0)
+            cc.WriteFriendlyColour(installPath, 0, 255, 0)
             R.Text = 0
             G.Text = 255
             B.Text = 0
@@ -241,7 +241,7 @@
             ini.WriteInteger("ChatColour", "R2", 255)
             ini.WriteInteger("ChatColour", "G2", 255)
             ini.WriteInteger("ChatColour", "B2", 255)
-            cc.WriteAllChatColor(TwTools.installPath, 255, 255, 255)
+            cc.WriteAllChatColor(installPath, 255, 255, 255)
             R2.Text = 255
             G2.Text = 255
             B2.Text = 255
@@ -249,7 +249,7 @@
             ini.WriteInteger("ChatColour", "R3", 255)
             ini.WriteInteger("ChatColour", "G3", 51)
             ini.WriteInteger("ChatColour", "B3", 51)
-            cc.WriteEnemyColor(TwTools.installPath, 255, 51, 51)
+            cc.WriteEnemyColor(installPath, 255, 51, 51)
             R3.Text = 255
             G3.Text = 51
             B3.Text = 51
@@ -257,7 +257,7 @@
             ini.WriteInteger("ChatColour", "R4", 241)
             ini.WriteInteger("ChatColour", "G4", 231)
             ini.WriteInteger("ChatColour", "B4", 22)
-            cc.WriteWhisperColor(TwTools.installPath, 241, 231, 22)
+            cc.WriteWhisperColor(installPath, 241, 231, 22)
             R4.Text = 241
             G4.Text = 231
             B4.Text = 22
@@ -265,7 +265,7 @@
             ini.WriteInteger("ChatColour", "R5", 220)
             ini.WriteInteger("ChatColour", "G5", 220)
             ini.WriteInteger("ChatColour", "B5", 220)
-            cc.WriteTimestampColor(TwTools.installPath, 220, 220, 220)
+            cc.WriteTimestampColor(installPath, 220, 220, 220)
             R5.Text = 220
             G5.Text = 220
             B5.Text = 220
@@ -273,13 +273,13 @@
             ini.WriteInteger("ChatColour", "RS", 255)
             ini.WriteInteger("ChatColour", "GS", 255)
             ini.WriteInteger("ChatColour", "BS", 255)
-            cc.WriteTeamChatColour(TwTools.installPath, 255, 255, 255)
+            cc.WriteTeamChatColour(installPath, 255, 255, 255)
             RS.Text = 255
             GS.Text = 255
             BS.Text = 255
 
             ini.WriteInteger("ChatFontSize", "FontSize", 20)
-            cc.WriteFontSize(TwTools.installPath, 20)
+            cc.WriteFontSize(installPath, 20)
             FontSize1.Text = 20
 
             MsgBox("一鍵恢復成功!", MsgBoxStyle.Information + MsgBoxStyle.OkOnly, "提示")
@@ -364,7 +364,7 @@
     Private Sub Button21_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button21.Click
         Try
             Dim cc As New ChatColour.ChatColour
-            cc.WriteTeamChatColour(TwTools.installPath, RS.Text, GS.Text, BS.Text)
+            cc.WriteTeamChatColour(installPath, RS.Text, GS.Text, BS.Text)
             ini.WriteInteger("ChatColour", "RS", RS.Text)
             ini.WriteInteger("ChatColour", "GS", GS.Text)
             ini.WriteInteger("ChatColour", "BS", BS.Text)
@@ -380,7 +380,7 @@
             ini.WriteInteger("ChatColour", "RS", 255)
             ini.WriteInteger("ChatColour", "GS", 255)
             ini.WriteInteger("ChatColour", "BS", 255)
-            cc.WriteTeamChatColour(TwTools.installPath, 255, 255, 255)
+            cc.WriteTeamChatColour(installPath, 255, 255, 255)
             RS.Text = 255
             GS.Text = 255
             BS.Text = 255

@@ -46,11 +46,12 @@ Public Class TwTools
         End If
 
         '找不到就關閉程式
+
         If installPath = "" Then
-            MsgBox(" 找不到LoL安裝路徑，請手動選擇 GemeData\Apps\LoLTW 目錄", MsgBoxStyle.Information + MsgBoxStyle.OkOnly, "提示")
+            'MsgBox(" 找不到LoL安裝路徑，請手動選擇 GemeData\Apps\LoLTW 目錄", MsgBoxStyle.Information + MsgBoxStyle.OkOnly, "提示")
             Dim dlr As New DialogResult
-            If dlr = Windows.Forms.DialogResult.OK Then
-                dlr = Me.FolderBrowserDialog1.ShowDialog()
+            If MsgBox(" 找不到LoL安裝路徑，請手動選擇 GemeData\Apps\LoLTW 目錄", MsgBoxStyle.Information + MsgBoxStyle.OkOnly, "提示") = Windows.Forms.DialogResult.OK Then
+                Me.FolderBrowserDialog1.ShowDialog()
                 If Me.FolderBrowserDialog1.SelectedPath.Contains("LoLTW") Then
                     installPath = Me.FolderBrowserDialog1.SelectedPath
                 Else
@@ -71,7 +72,7 @@ Public Class TwTools
         '把 installPath 存入 config.ini
         If ini.GetString("LoLPath", "TwPath", Nothing) = "" Then
 
-            If installPath.Contains("LoLTW") Then
+            If installPath <> "" Then
                 ini.WriteString("LoLPath", "TwPath", installPath)
             Else
                 MsgBox("LoL安裝目錄選擇錯誤，按'確定'關閉程式", MsgBoxStyle.OkCancel + MsgBoxStyle.Information, Nothing)
